@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket         = "my-aws-bucket11"
     region         = "ap-south-1"
-    key            = "eks/terraform/"
+    //key            = "eks/terraform/"
     dynamodb_table = "Lock-Files"
     encrypt        = true
   }
